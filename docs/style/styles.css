@@ -43,6 +43,30 @@
     .espada-members {
         margin-top: 60vh;
     }
+    #o-arrow1 {
+        top: 82%;
+    }
+    #o-arrow2 {
+        top: 82%;
+    }
+    #o-arrow3 {
+        top: 84%;
+    }
+    #o-arrow4 {
+        top: 84%;
+    }
+    #o-arrow5 {
+        top: 79%;
+    }
+    #o-arrow6 {
+        top: 79%;
+    }
+    #o-arrow7 {
+        top: 83%;
+    }
+    #o-arrow8 {
+        top: 83%;
+    }
 }
 
 @media (min-height: 1000px) {
