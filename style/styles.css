@@ -1,0 +1,1968 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@media (min-height: 730px) {
+    .grid-quincy {
+        display: flex;
+        margin-top: -90vh;
+    }
+    .quincy-card__text2 {
+        position: relative;
+        top: -13em;
+        display: flex;
+    }
+    .quincy-card__text2#Yhwach-text {
+        -webkit-text-stroke: 0.5px black;
+    }
+    .quincy-card {
+        height: 27em;
+        width: 22em;
+    }
+}
+
+@media (max-width: 1400px) {
+    .espada-leaders {
+        width: 95%;
+        gap: 3em;
+    }
+}
+
+@media (max-width: 1400px) and (max-height: 950px) {
+    .espada-leaders {
+        margin-top: -70vh
+    }
+}
+
+@media (max-width: 1400px) and (max-height: 730px) {
+    .espada-leaders {
+        margin-top: -56vh
+    }
+}
+
+@media (max-width: 1390px) {
+    .gotei__h1 {
+        font-size: 2.3em;
+    }
+    .gotei-card, .slider-gotei-card {
+        width: 9em;
+        height: 12em;
+    }
+    #grid-gotei-one {
+        gap: 13em;
+    }
+    #grid-gotei-two{
+        gap: 36em;
+    }
+    #grid-gotei-three {
+        gap: 59em;
+    }
+    #grid-gotei-four {
+        gap: 59em;
+    }
+    #grid-gotei-five {
+        gap: 36em;
+    }
+    #grid-gotei-six {
+        gap: 13em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .aboutP#p1 {
+        margin-top: -4em;
+    }
+    .aboutP#Contact {
+        margin: -4em auto 5em;
+    }
+}
+
+@media (max-width: 1250px) {
+    .gotei__h2 {
+        display: none;
+    }
+    .gotei__h1 {
+        font-size: 5em;
+        margin: -200vh auto 0;
+    }
+    .ClickOnCharacterGotei, .ClickOnCharacter, .ClickOnCharacterQuincy {
+        top: -77.2vh;
+        left: 75%;
+        display: block;
+        opacity: 0;
+        transform: translateX(-50%) rotate(10deg);
+        animation: slideRotateInClickOnCharacter1 1.8s ease-out 2.5s forwards;
+    }
+    .ClickOnCharacter {
+        top: -75.2vh;
+    }
+    .ClickOnCharacterBleach {
+        top: -85.2vh;
+        left: 65%;
+        display: block;
+        opacity: 0;
+        transform: translateX(-50%) rotate(35deg);
+        animation: slideRotateInClickOnCharacter2 1.8s ease-out 2.5s forwards;
+    }
+    .br, .br1, .gotei-card__image::after, .slider-gotei-card__image::after, .espada-card__image::after, .quincy-card__image::after, .slider, .slider-gotei-card, #grid-gotei-one, #grid-gotei-two, #grid-gotei-three, #grid-gotei-main, #grid-gotei-four, #grid-gotei-five, #grid-gotei-six {
+        display: none;
+    }
+    .br#gotei-br, .br1#bleach-br, .br#espada-br, .br#quincy-br {
+        display: inline;
+    }
+    button.right-arrow, button.left-arrow {
+        opacity: 0.5;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 30%;
+        transform: translateY(-50%);
+        animation: slideInButton1 1s ease-out;
+    }
+    button.right-arrow {
+        right: 32%;
+    }
+    button.left-arrow {
+        left: 32%;
+    }
+    .gotei-card:hover, .espada-card:hover, .quincy-card:hover, .quincy-card1:hover, .quincy-card2:hover {
+        transform: none;
+    }
+    .slider0 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: end;
+        overflow: hidden;
+        height: 40em;
+        margin: -82vh auto 0;
+    }
+    .gotei-card, .slider-gotei-card0 {
+        width: 17em;
+        height: 22em;
+    }
+    a#Yamamoto2-a, a#Kyoraku2-a {
+        height: 22em;
+    }
+    #grid-gotei-one1 {
+        display: flex;
+        gap: 23em;
+    }
+    #grid-gotei-one1 {
+        display: flex;
+        gap: 23em;
+    }
+    #grid-gotei-main0 {
+        display: flex;
+        justify-content: center;
+    }
+    #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
+        display: flex;
+        gap: 10em;
+    }
+    #grid-gotei-one1 {
+        margin: -110vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: -10vh auto 0;
+    }
+    #grid-gotei-three3 {
+        margin: 20vh auto 0;
+    }
+    .slider0 {
+        margin: -120vh auto 0;
+    }
+    #grid-gotei-four4 {
+        margin: 20vh auto 0;
+    }
+    #grid-gotei-five5 {
+        margin: 20vh auto 0;
+    }
+    #grid-gotei-six6 {
+        margin: 20vh auto 0;
+    }
+    .gotei-card__devision-text {
+        top: -10.8em;
+    }
+    .gotei-desc {
+        margin-top: 0;
+    }
+    .espada-leaders {
+        margin-top: -65vh;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 1250px) {
+    .gotei__h2 {
+        margin: 150em auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -77.82vh;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 1150px) {
+    .gotei__h2 {
+        margin: 140em auto 0;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 1050px) {
+    .gotei__h2 {
+        margin: 130em auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -79.82vh;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 950px) {
+    .slider0 {
+        margin: -110vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -90vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 0vh auto 0;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 900px) {
+    .gotei__h2 {
+        margin: 125em auto 0;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 790px) {
+    .gotei__h2 {
+        margin: 120em auto 0;
+    }
+    .slider0 {
+        margin: -100vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -80vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 10vh auto 0;
+    }
+}
+
+@media (max-width: 1250px) and (max-height: 670px) {
+    .gotei__h2 {
+        margin: 115em auto 0;
+    }
+    .slider0 {
+        margin: -90vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -70vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 20vh auto 0;
+    }
+}
+
+@media (max-width: 1222px) {
+    .grid__bleach {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .nav-card {
+        width: 20em;
+        height: 30em;
+    }
+    .bleach-card {
+        width: 22em;
+        height: 28em;
+        right: 0;
+        margin: -150em auto 0;
+    }
+}
+
+@media (max-width: 1222px) and (max-height: 850px) {
+    .bleach-card {
+        width: 20em;
+        height: 25em;
+        right: 0;
+        margin: -140em auto 0;
+    }
+}
+
+@media (max-width: 1220px) {
+    .espada-members {
+        margin: 60vh auto 0;
+    }
+    .espada-card {
+        width: 17em;
+        height: 22em;
+    }
+    .image-ulq {
+        width: 100%;
+        aspect-ratio: 17 / 22;
+    }
+    .espada-card__text, .espada-card__member-text, .gotei-card__text-name {
+        top: -10.8em;
+        text-align: center;
+    }
+    .espada__h1 {
+        top: 3em;
+        font-size: 6em;
+    }
+    .espada-card__member-text#Starrk-text, .espada-card__member-text#Baraggan-text, .espada-card__member-text#Nelliel-text, .espada-card__member-text#Zommari-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Aaroniero-text {
+        top: -12em;
+    }
+    .espada-card__member-text#Nelliel-text {
+        transform: translateY(0);
+    }
+    .espada-card__image::after {
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 1220px) and (max-height: 950px) {
+    .espada-leaders {
+        margin-top: -60vh
+    }
+}
+
+@media (max-width: 1220px) and (max-height: 730px) {
+    .espada-leaders {
+        margin-top: -56vh
+    }
+    .grid-quincy {
+        margin-top: -60vh;
+    }
+}
+
+@media (max-width: 1220px) and (max-height: 740px) {
+    .espada__h1 {
+        top: 2.2em;
+    }
+}
+
+@media (max-width: 1220px) and (max-height: 560px) {
+    .espada__h1 {
+        top: 1.3em;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* DESCRIPTION TEXT SPACE */
+    .bleach-desc-card__text, .gotei-desc-card__text, .lieutenant-desc-card__text, .espada-desc-card__text, .quincy-desc-card__text, .other-slide-desc-card__text {
+        flex-direction: column;
+        padding: 2% 5%;
+    }
+    /* QUINCY PAGE */
+    .bg#quincy-bg {
+        background: url('../images/QuincyMainAlt.png') top no-repeat;
+        background-size: cover;
+    }
+    .quincy-card__text2 {
+        display: flex;
+        top: -10.6em;
+    }
+    .quincy-card#Ishida-card {
+        right: 0%;
+        margin-top: 0;
+    }
+    .quincy-card#Yhwach-card {
+        margin: 0;
+        transform: translateX(0) translateY(-10%);
+    }
+    .quincy-card#Jugram-card {
+        left: 0;
+        margin-top: 0;
+    }
+    .grid-quincy {
+        display: flex;
+    }
+    .quincy-card {
+        width: 17em;
+        height: 22em;
+    }
+    .quincy-card2#Ishida-card, .quincy-card2#Yhwach-card, .quincy-card2#Jugram-card {
+        display: none;
+    }
+    .grid-quincy {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1200px) and (max-height: 850px) {
+    .ClickOnCharacterQuincy {
+        top: -80vh;
+    }
+}
+
+@media (max-width: 1200px) and (min-height: 1050px) {
+    .grid-quincy {
+        margin-top: -110vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    .bg#bleach-bg {
+        background-position: calc(100% + 4em);
+    }
+    .bleach-card {
+        right: 0;
+        margin: -150em auto 0;
+    }
+}
+
+@media (max-width: 1100px) and (max-height: 850px) {
+    .bleach-card {
+        width: 20em;
+        height: 25em;
+        right: 0;
+        margin: -135em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -70.2vh;
+        left: 83%;
+    }
+}
+
+@media (max-width: 1100px) and (min-height: 1000px) {
+    .bg#bleach-bg {
+        background-position: calc(100% + 4em);
+    }
+    .bleach-card {
+        right: 0;
+        margin: -145em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -70.2vh;
+        left: 80%;
+    }
+}
+
+@media (max-width: 1100px) and (min-height: 1150px) {
+    .ClickOnCharacterBleach {
+        top: -65.2vh;
+        left: 80%;
+    }
+}
+
+@media (max-width: 1100px) and (min-height: 1350px) {
+    .ClickOnCharacterBleach {
+        top: -60.2vh;
+        left: 80%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .aboutP {
+        margin: -2em auto 0;
+    }
+    .aboutP#p1 {
+        margin-top: -3em;
+    }
+    .aboutP#Contact {
+        margin: -3em auto 5em;
+    }
+}
+
+@media (max-width: 960px) {
+    /* GOTEI PAGE */
+    .br, .br1 {
+        display: inline;
+    }
+    .ClickOnCharacter, .ClickOnCharacterGotei, .ClickOnCharacterQuincy {
+        left: 80%;
+        display: block;
+    }
+    .ClickOnCharacter, .ClickOnCharacterGotei {
+        transform: translateX(-50%) rotate(35deg);
+        animation: slideRotateInClickOnCharacter2 1.8s ease-out 2.5s forwards;
+    }
+    .ClickOnCharacterQuincy {
+        transform: translateX(-50%) rotate(35deg);
+        animation: slideRotateInClickOnCharacter2 1.8s ease-out 2.5s forwards;
+    }
+    .gotei__h1 {
+        font-size: 5em;
+        margin: -200vh auto 0;
+    }
+    .gotei-card, .slider-gotei-card, .slider-gotei-card0 {
+        width: 14em;
+        height: 18em;
+    }
+    a#Yamamoto2-a, a#Kyoraku2-a {
+        height: 18em;
+    }
+    #grid-gotei-main0 {
+        margin: -130vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -40vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 20vh auto 0;
+    }
+    .gotei-card__devision-text {
+        font-size: 2em;
+    }
+    button.right-arrow, button.left-arrow {
+        opacity: 0.8;
+        transform: translateY(-430%);
+        animation: slideInButton 1s ease-out;
+    }
+    button.right-arrow {
+        right: 10%;
+    }
+    button.left-arrow {
+        left: 10%;
+    }
+    /* ESPADA PAGE */
+    .espada-leaders {
+        margin: -67vh auto 0;
+    }
+    .grid-quincy {
+        margin: -94vh auto 0;
+    }
+    .espada-card {
+        width: 14em;
+        height: 18em;
+    }
+    .espada-card__text, .gotei-card__devision-text {
+        top: -11em;
+    }
+    .espada-card__text, .quincy-card__text2 {
+        font-size: 2em;
+    }
+    .espada-card__image#Tosen::after{
+        content: "Kaname\ATosen";
+        text-align: center;
+        line-height: 1;
+        padding: 10px 0;
+    }
+    .espada-members {
+        margin: 38.5vh auto 0;
+    }
+    .espada-card__member-text {
+        font-size: 2em;
+        top: -10.8em;
+        text-align: center;
+    }
+    .espada__h1 {
+        font-size: 5em;
+        top: 2em;
+    }
+    .espada-card__member-text#Starrk-text, .espada-card__member-text#Baraggan-text, .espada-card__member-text#Nelliel-text, .espada-card__member-text#Zommari-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Aaroniero-text {
+        top: -12em;
+    }
+    .espada-card__member-text#Nelliel-text {
+        font-size: 2em;
+        transform: translateY(0);
+    }
+    .espada-card__member-text#Szayelaporro-text {
+        top: -10.8em;
+    }
+    .espada-card__image::after {
+        font-size: 1.8em;
+        padding: 6px 0;
+    }
+    /* QUINCY PAGE */
+    .quincy-card {
+        width: 14em;
+        height: 18em;
+    }
+    /* ESPADA AND QUINCY GRID */
+    .espada-leaders, .grid-quincy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        gap: 2em;
+        grid-row-gap: 5em;
+        justify-items: center;
+    }
+    /* -------------------------- */
+    a#Aizen-a, a#Yhwach1-a {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        order: 1;
+    }
+    a#Gin-a, a#Ishida1-a {
+        grid-column: 1;
+        grid-row: 2;
+        order: 2;
+    }
+    a#Tosen-a, a#Jugram1-a {
+        grid-column: 2;
+        grid-row: 2;
+        order: 3;
+    }
+}
+
+@media (max-width: 960px) and (min-height: 800px) {
+    .slider0 {
+        margin: -130vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -60vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 10vh auto 0;
+    }
+}
+
+@media (max-width: 960px) and (min-height: 1000px) {
+    .slider0 {
+        margin: -127vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -70vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 0vh auto 0;
+    }
+}
+
+@media (max-width: 920px) {
+    #grid-gotei-one1 {
+        display: flex;
+        gap: 20em;
+    }
+    #grid-gotei-main0 {
+        display: flex;
+    }
+    #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
+        display: flex;
+        gap: 10em;
+    }
+}
+
+@media (max-width: 800px) {
+    .grid-quincy {
+        margin: -67vh auto 0;
+    }
+    .gotei__h1 {
+        margin: -190vh auto 0;
+    }
+    #grid-gotei-one1, #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
+        gap: 5em;
+    }
+    #grid-gotei-one1 {
+        margin: -35vh auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 20vh auto 0;
+    }
+    #grid-gotei-main0 {
+        margin: -120vh auto 0;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 850px) {
+    #grid-gotei-one1 {
+        margin: -15vh auto 0;
+    }
+    .slider0 {
+        margin: -110vh auto 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .bg#bleach-bg {
+        background-position: calc(100% + 6em);
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --height:48px;
+        --padding:8px
+    }
+    .gotei-desc {
+        width: 95%;
+    }
+    .gotei-desc-card, .lieutenant-desc-card, .slider-gotei-desc-card, .slider-gotei-desc-card1, .slider-gotei-desc-card2, .slider-gotei-desc-card3, .slider-gotei-desc-card4, .slider-gotei-desc-card5, .slider-gotei-desc-card6, .slider-gotei-desc-card7, .slider-gotei-desc-card8, .slider-gotei-desc-card9, .slider-lieutenant-desc-card, .slider-lieutenant-desc-card1, .slider-lieutenant-desc-card2, .slider-lieutenant-desc-card3, .slider-lieutenant-desc-card4, .slider-lieutenant-desc-card6 {
+        width: 90%;
+    }
+    button.right-arrow1, button.left-arrow1, button.right-arrow2, button.left-arrow2, button.right-arrow3, button.left-arrow3, button.right-arrow4, button.left-arrow4, button.right-arrow5, button.left-arrow5, button.right-arrow6, button.left-arrow6, button.right-arrow7, button.left-arrow7, button.right-arrow8, button.left-arrow8, button.right-arrow9, button.left-arrow9, button.right-arrow10, button.left-arrow10, button.right-arrow11, button.left-arrow11, button.right-arrow12, button.left-arrow12, button.right-arrow13, button.left-arrow13, button.right-arrow14, button.left-arrow14, button.right-arrow15, button.left-arrow15, button.right-arrow16, button.left-arrow16, button.right-arrow17, button.left-arrow17 {
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        opacity: 0.8;
+    }
+    button.left-arrow1, button.left-arrow2, button.left-arrow3, button.left-arrow4, button.left-arrow5, button.left-arrow6, button.left-arrow7, button.left-arrow8, button.left-arrow9, button.left-arrow10, button.left-arrow11, button.left-arrow12, button.left-arrow13, button.left-arrow14, button.left-arrow15, button.left-arrow16, button.left-arrow17 {
+        display: none;
+    }
+    .right-arrow2#g-arrow1 {
+        top: 3.2%;
+        right: 0.5%;
+    }
+    .right-arrow1#g-arrow3 {
+        top: 6.2%;
+        right: 0.5%;
+    }
+    .right-arrow3#g-arrow5 {
+        top: 18.6%;
+        right: 0.5%;
+    }
+    .right-arrow4#g-arrow7 {
+        top: 26.2%;
+        right: 0.5%;
+    }
+    .right-arrow5#g-arrow9 {
+        top: 29.2%;
+        right: 0.5%;
+    }
+    .right-arrow6#g-arrow11 {
+        top: 33.9%;
+        right: 0.5%;
+    }
+    .right-arrow7#g-arrow13 {
+        top: 49.3%;
+        right: 0.5%;
+    }
+    .right-arrow8#g-arrow15 {
+        top: 52.2%;
+        right: 0.5%;
+    }
+    .right-arrow9#g-arrow17 {
+        top: 56.9%;
+        right: 0.5%;
+    }
+    .right-arrow10#g-arrow19 {
+        top: 59.9%;
+        right: 0.5%;
+    }
+    .right-arrow11#g-arrow21 {
+        top: 64.6%;
+        right: 0.5%;
+    }
+    .right-arrow12#g-arrow23 {
+        top: 82.9%;
+        right: 0.5%;
+    }
+    .right-arrow13#g-arrow25 {
+        top: 67.55%;
+        right: 0.5%;
+    }
+    .right-arrow14#g-arrow27 {
+        top: 87.65%;
+        right: 0.5%;
+    }
+    .right-arrow15#g-arrow29 {
+        top: 90.6%;
+        right: 0.5%;
+    }
+    .right-arrow16#g-arrow31 {
+        top: 10.88%;
+        right: 0.5%;
+    }
+    nav {
+        justify-content: flex-start;
+        padding-top: 5em;
+    }
+    nav ul.nav__list {
+        gap: 1.5em;
+        padding: 0;
+    }
+    .espada-desc {
+        width: 100%;
+    }
+    #backToTop {
+        right: 20px; 
+        bottom: 50px;
+        width: 65px;
+        height: 65px;
+        border: 2px solid rgba(0, 14, 117, 0.85);
+        box-shadow: none;
+    }
+    .ClickOnCharacter, .ClickOnCharacterQuincy {
+        top: -75vh;
+    }
+    .quincy-desc {
+        width: 100%;
+    }
+    .image-card {
+        width: 32em;
+        height: 20em;
+    }
+    .image-card#Visored {
+        width: 32em;
+        height: 25em;
+    }
+    #o-arrow1, #o-arrow2, #o-arrow3, #o-arrow4, #o-arrow5, #o-arrow6, #o-arrow7, #o-arrow8 {
+        width: 40px;
+        height: 40px;
+        border-radius: 30%;
+        opacity: 0.8;
+    }
+    #o-arrow1, #o-arrow3, #o-arrow5, #o-arrow7 {
+        right: 5%;
+    }
+    #o-arrow2, #o-arrow4, #o-arrow6, #o-arrow8 {
+        left: 5%;
+    }
+    .aboutP {
+        margin: -1em auto 0;
+    }
+    .aboutP#p1 {
+        margin-top: -2em;
+    }
+    .aboutP#Contact {
+        margin: -2em auto 5em;
+    }
+    .player {
+        width: 250px;
+        height: 140px;
+    }
+    .controls__timeline {
+        max-width: 100px;
+    }
+    .controls__time {
+        display: none;
+    }
+    .volume__wrap {
+        height: 60px;
+    }
+    .player__volume {
+        left: 65%;
+    }
+    /* ---------NAV-MOBILE--------- */
+    nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: min(15em, 100%);
+        z-index: 10;
+        border-left: 1px solid rgb(56, 56, 56);
+        transition: right 300ms ease-out;
+    }
+    nav.show {
+        right: 0;
+    }
+    nav.show ~ #overlay {
+        display: block;
+    }
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    nav li:first-child {
+        display: block;
+    }
+    nav li::after {
+        content: unset;
+    }
+    .nav-mobile {
+        position: fixed;
+        align-items: center;
+        justify-content: end;
+        top: 0;
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        opacity: 0.95;
+        z-index: 2;
+    }
+    svg {
+        height: 27px;
+        width: 27px;
+    }
+    #open-sidebar-button, #close-sidebar-button {
+        display: block;
+    }
+    #open-sidebar-button {
+        display: flex;
+        align-self: center;
+        top: 0;
+        right: 0;
+        float: right;
+        margin-right: 0.35rem;
+        z-index: 12;
+    }
+    #close-sidebar-button {
+        position: absolute;
+        top: 0.75rem;
+        left: 0.75rem;
+        z-index: 13;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul.nav__list {
+        order: 1;
+    }
+    nav li {
+        padding-left: 3em;
+    }
+    .nav__switcher-wrap {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    .nav__switcher {
+        width: 80px;
+        margin-right: unset;
+    }
+    .nav__lang-btn {
+        font-size: 16px;
+    }
+    .nav__switcher-wrap {
+        align-self: center;
+    }
+    .nav__switcher-tooltip {
+        text-align: center;
+        position: absolute;
+        top: 7em;
+        right: unset;
+        width: 160px;
+        padding-top: 5px;
+        padding-right: 7px;
+        padding-left: 7px;
+        padding-bottom: 4px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 10px;
+        line-height: 1.15;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        opacity: 1;
+        pointer-events: none;
+        z-index: 1;
+        transform: translateY(0) translateX(0);
+        backdrop-filter: blur(2px) saturate(180%);
+        -webkit-backdrop-filter: blur(2px) saturate(180%);
+        font-family: var(--font-archivo);
+        transition:
+            opacity 1.35s cubic-bezier(.2,.85,.3,1),
+            transform 1.35s cubic-bezier(.2,.85,.3,1);
+    }
+    .tt-ru, .tt-en, .tt-sep {
+        display: none;
+    }
+    .tt-ru1, .tt-sep1, .tt-en1 {
+        display: block;
+        text-align: center;
+    }
+    .tt-ru1 {
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+    }
+    .tt-sep1 {
+        height: 1px;
+        width: 100%;
+        background-color: #fff;
+        opacity: 0.9;
+    }
+    .tt-en1 {
+        font-size: 13px;
+        font-weight: 600;
+        opacity: 1;
+        letter-spacing: 1.2px;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 1200px) {
+    #main__bleach {
+        place-items: center;
+    }
+    .bg#bleach-bg {
+        border: none;
+        position: sticky;
+    }
+    .grid__bleach {
+        display: none;
+        position: relative;
+        background-color: #FF9523;
+        border: 3px solid white;
+        width: 110%;
+        height: 110%;
+        justify-items: center;
+        top: -10%;
+        border-radius: 15px;
+    }
+    .ClickOnCharacterBleach {
+        top: -61.2vh;
+        left: 85%;
+    }
+    .nav-card:hover {
+        transform: translateX(0) scale(1);
+        outline: none;
+    }
+    .nav-card:active {
+        outline: 3px solid rgb(0, 18, 99);
+    }
+    .bleach-desc-card {
+        margin: 10em auto 0;
+    }
+    #MoreCharP {
+        margin: 3em auto 2em;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 850px) {
+    .bleach-card {
+        width: 20em;
+        height: 25em;
+        right: 0;
+        margin: -140em auto 0;
+    }
+}
+
+@media (min-height: 730px) {
+    .bg#quincy-bg {
+        background: url('../images/QuincyMainAlt.png') top no-repeat;
+        background-size: cover;
+    }
+    .quincy-card#Ishida-card {
+        right: 0%;
+        margin-top: 0;
+    }
+    .quincy-card#Jugram-card {
+        left: 0;
+        margin-top: 0;
+    }
+    .quincy-card2#Ishida-card, .quincy-card2#Yhwach-card, .quincy-card2#Jugram-card {
+        display: none;
+    }
+    .quincy-card#Ishida-card {
+        right: 0%;
+        margin-top: 0;
+    }
+    .quincy-card#Jugram-card {
+        left: 0;
+        margin-top: 0;
+    }
+    /* .quincy-card {
+        width: 17em;
+        height: 22em;
+    } */
+    .grid-quincy {
+        width: 95%;
+    }
+}
+
+@media (max-width: 720px) {
+    .gotei__h1 {
+        margin: -205vh auto 0;
+    }
+    .gotei__h2 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 659px) {
+    .bg#bleach-bg {
+        background-position: calc(100% + 6em);
+    }
+}
+
+@media (max-width: 605px) {
+    .espada-members {
+        row-gap: 13em;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutP {
+        margin: 0 auto 0;
+    }
+    .aboutP#p1 {
+        margin-top: -1em;
+    }
+    .aboutP#Contact {
+        margin: -1em auto 5em;
+    }
+    .about-image {
+        width: 30em;
+        height: 20em;
+    }
+}
+
+@media (max-width: 580px) {
+    .br1#bleach-br, .br#gotei-br, .br#espada-br, .br#quincy-br {
+        display: none;
+    }
+    .ClickOnCharacterBleach {
+        color: #4E87C9;
+        font-size: 1.8em;
+        border: 2px solid #4E87C9;
+        top: -72vh;
+        left: 50%;
+        transform: translateX(-50%) rotate(0);
+        animation: slideInClickOnCharacter 1.8s ease-out 2s forwards;
+    }
+    .ClickOnCharacterGotei {
+        top: -88.2vh;
+        left: 50%;
+        display: block;
+        transform: translateX(-50%) rotate(0deg);
+        animation: slideInClickOnCharacter 1.8s ease-out 2s forwards;
+    }
+    .ClickOnCharacter, .ClickOnCharacterQuincy {
+        left: 50%;
+        display: block;
+        transform: translateX(-50%) rotate(0deg);
+        animation: slideInClickOnCharacter 1.8s ease-out 2s forwards;
+    }
+    .bleach-card {
+        right: 0;
+        margin: -140em auto 0;
+    }
+    .bleach-desc-card {
+        margin: 10em auto 0;
+    }
+}
+
+@media (max-width: 580px) and (max-height: 1070px) {
+    .bleach-card {
+        right: 0;
+        margin: -143em auto 0;
+    }
+}
+
+@media (max-width: 580px) and (max-height: 980px) {
+    .grid__bleach {
+        top: -6%;
+    }
+    .ClickOnCharacterBleach {
+        top: -70vh;
+        left: 50%;
+    }
+    .ClickOnCharacter, .ClickOnCharacterQuincy {
+        top: -83vh;
+    }
+    .bleach-card {
+        right: 0;
+        margin: -139em auto 0;
+    }
+}
+
+@media (max-width: 580px) and (max-height: 750px) {
+    .bleach-card {
+        width: 18em;
+        height: 23em;
+        right: 0;
+        margin: -136em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -85vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    #grid-gotei-one1, #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
+        gap: 2.5em;
+    }
+    .gotei__h2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    .image-card {
+        width: 28em;
+        height: 17em;
+    }
+    .image-card#Visored {
+        width: 28em;
+        height: 21em;
+    }
+    #o-arrow1 {
+        top: 77%;
+        right: 5%;
+    }
+    #o-arrow2 {
+        top: 77%;
+        left: 5%;
+    }
+    #o-arrow3 {
+        top: 79%;
+        right: 5%;
+    }
+    #o-arrow4 {
+        top: 79%;
+        left: 5%;
+    }
+    #o-arrow5 {
+        top: 73%;
+        right: 5%;
+    }
+    #o-arrow6 {
+        top: 73%;
+        left: 5%;
+    }
+    #o-arrow7 {
+        top: 77.5%;
+        right: 5%;
+    }
+    #o-arrow8 {
+        top: 77.5%;
+        left: 5%;
+    }
+    .right-arrow2#g-arrow1 {
+        top: 3.4%;
+    }
+    .right-arrow1#g-arrow3 {
+        top: 6.2%;
+    }
+    .right-arrow3#g-arrow5 {
+        top: 18.7%;
+    }
+    .right-arrow4#g-arrow7 {
+        top: 26.4%;
+    }
+    .right-arrow5#g-arrow9 {
+        top: 29.15%;
+    }
+    .right-arrow6#g-arrow11 {
+        top: 34.05%;
+    }
+    .right-arrow7#g-arrow13 {
+        top: 49.35%;
+    }
+    .right-arrow8#g-arrow15 {
+        top: 52.1%;
+    }
+    .right-arrow9#g-arrow17 {
+        top: 57.05%;
+    }
+    .right-arrow10#g-arrow19 {
+        top: 59.8%;
+    }
+    .right-arrow11#g-arrow21 {
+        top: 64.7%;
+    }
+    .right-arrow12#g-arrow23 {
+        top: 82.95%;
+    }
+    .right-arrow13#g-arrow25 {
+        top: 67.55%;
+    }
+    .right-arrow14#g-arrow27 {
+        top: 87.85%;
+    }
+    .right-arrow15#g-arrow29 {
+        top: 90.61%;
+    }
+    .right-arrow16#g-arrow31 {
+        top: 11.08%;
+    }
+    .right-arrow17#g-arrow33 {
+        top: 72.45%;
+    }
+}
+
+@media (max-width:500px) {
+    /* ESPADA PAGE */
+    .espada-leaders {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 12em;
+        margin: -70vh auto 0;
+    }
+    .espada-card {
+        width: 21em;
+        height: 26em;
+    }
+    .espada-card__text, .quincy-card__text {
+        font-size: 2em;
+        top: -16.4em;
+    }
+    a#Aizen-a {
+        grid-column: 1;
+        grid-row: 1;
+        order: 1;
+    }
+    a#Gin-a {
+        grid-column: 1;
+        grid-row: 2;
+        order: 2;
+    }
+    a#Tosen-a {
+        grid-column: 1;
+        grid-row: 3;
+        order: 3;
+    }
+    .espada-card__text-name, .espada-card__member-text-name, .gotei-card__text-name {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        font-family: "Poetsen One", sans-serif;
+        font-size: 2.5em;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid white;
+        border-radius: 10%;
+    }
+    .espada-card__text-name {
+        position: relative;
+        top: -13em;
+    }
+    /* Espada members grid media query */
+    .espada-members{
+        row-gap: 18em;
+    }
+    .espada-card__member-text {
+        font-size: 2em;
+        top: -16.6em;
+        text-align: center;
+    }
+    .espada-card__member-text-name {
+        position: relative;
+        top: -13.4em;
+    }
+    .espada-card__member-text-name#Baraggan-text-name, .espada-card__member-text-name#Nelliel-text-name, .espada-card__member-text-name#Grimmjow-text-name, .espada-card__member-text-name#Zommari-text-name, .espada-card__member-text-name#Szayelaporro-text-name, .espada-card__member-text-name#Aaroniero-text-name, .espada-card__member-text-name#Yammy-text-name {
+        top: -14.5em;
+        text-align: center;
+        line-height: 1;
+        padding: 6px 0;
+    }
+    .espada-card__member-text-name#Ulquiorra-text-name {
+        top: -14.2em;
+        font-size: 2.36em;
+    }
+    .espada-card__member-text#Zommari-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Aaroniero-text, .espada-card__member-text#Yammy-text {
+        top: -17.6em;
+    }
+    .espada__h1 {
+        top: 2em;
+    }
+    .espada-card__member-text#Starrk-text, .espada-card__member-text#Harribel-text, .espada-card__member-text#Nnoitra-text, .espada-card__member-text-name#Ulquiorra-text {
+        top: -16.8em;
+    }
+    .espada-card__member-text#Nelliel-text {
+        transform: translateY(0);
+    }
+    .espada-card__member-text#Baraggan-text, .espada-card__member-text#Nelliel-text, .espada-card__member-text#Grimmjow-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Zommari-text,  .espada-card__member-text#Aaroniero-text, .espada-card__member-text#Yammy-text {
+        top: -18.15em;
+    }
+    .espada-card__image::after {
+        font-size: 1.8em;
+        padding: 6px 0;
+    }
+    /* GOTEI PAGE */
+    .gotei__h1 {
+        margin: -205vh auto 0;
+    }
+    .gotei__h2 {
+        width: 80%;
+        font-size: 1.7em;
+    }
+    .ClickOnCharacter, .ClickOnCharacterGotei {
+        top: -89.2vh;
+    }
+    .ClickOnCharacterQuincy {
+        color: #FF1473;
+        border: 2px solid #FF1473;
+        top: -91vh;
+    }
+    button.right-arrow, button.left-arrow {
+        opacity: 0.8;
+        transform: translateY(-350%);
+        animation: slideInButton 1s ease-out;
+    }
+    button.right-arrow {
+        right: 3%;
+    }
+    button.left-arrow {
+        left: 3%;
+    }
+    .slider0 {
+        width: 100%;
+    }
+    .gotei-card, .slider-gotei-card0 {
+        width: 21em;
+        height: 26em;
+    }
+    #grid-gotei-one1, #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
+        gap: 15em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #grid-gotei-main0 {
+        justify-content: center;
+        margin: 0vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -10em auto 0;
+    }
+    #grid-gotei-two2{
+        margin: 15em auto 0;
+    }
+    #grid-gotei-three3 {
+        margin: 15em auto 0;
+    }
+    #grid-gotei-four4 {
+        margin: 15em auto 0;
+    }
+    #grid-gotei-five5 {
+        margin: 15em auto 0;
+    }
+    #grid-gotei-six6 {
+        margin: 15em auto 0;
+    }
+    .gotei-card__text-name {
+        position: relative;
+        top: -13.4em;
+    }
+    .gotei-card__devision-text {
+        font-size: 2em;
+        top: -16.7em;
+    }
+    .gotei-card__text-name#Yamamoto-text-name, .gotei-card__text-name#Rojuro-text-name, .gotei-card__text-name#Unohana-text-name, .gotei-card__text-name#Byakuya-text-name, .gotei-card__text-name#Komamura-text-name, .gotei-card__text-name#Kyoraku-text-name, .gotei-card__text-name#Kensei-text-name, .gotei-card__text-name#Toshiro-text-name, .gotei-card__text-name#Kenpachi-text-name, .gotei-card__text-name#Mayuri-text-name, .gotei-card__text-name#Ukitake-text-name {
+        top: -14.5em;
+    }
+    .gotei-card__devision-text#Yamamoto-devision-text, .gotei-card__devision-text#Rojuro-devision-text, .gotei-card__devision-text#Unohana-devision-text, .gotei-card__devision-text#Byakuya-devision-text, .gotei-card__devision-text#Komamura-devision-text, .gotei-card__devision-text#Kyoraku-devision-text, .gotei-card__devision-text#Kensei-devision-text, .gotei-card__devision-text#Toshiro-devision-text, .gotei-card__devision-text#Kenpachi-devision-text, .gotei-card__devision-text#Mayuri-devision-text, .gotei-card__devision-text#Ukitake-devision-text {
+        top: -18.1em;
+    }
+    /* QUINCY PAGE */
+    .grid-quincy {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 14em;
+        margin: -65vh auto 0;
+    }
+    .quincy-card, .quincy-card1 {
+        width: 21em;
+        height: 26em;
+    }
+    a#Yhwach1-a {
+        grid-column: 1;
+        grid-row: 1;
+        order: 1;
+    }
+    a#Jugram1-a {
+        grid-column: 1;
+        grid-row: 2;
+        order: 2;
+    }
+    a#Ishida1-a {
+        grid-column: 1;
+        grid-row: 3;
+        order: 3;
+    }
+    .quincy-card__text-name {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+        font-family: "Poetsen One", sans-serif;
+        font-size: 2.5em;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid white;
+        border-radius: 10%;
+    }
+    .quincy-card__text-name {
+        position: relative;
+        top: -12.8em;
+    }
+    /* .quincy-card__text-name#Yhwach-text-name {
+        -webkit-text-stroke: 0.1px black;
+    } */
+    .quincy-card__text, .quincy-card__text2 {
+        font-size: 2em;
+        top: -16.1em;
+    }
+    .quincy-card__text2#Jugram-text {
+        top: -17.6em;
+    }
+    .quincy-card__text-name#Jugram-text-name {
+        top: -14em;
+        text-align: center;
+        line-height: 1;
+        padding: 6px 0;
+    }
+    .RguardQ {
+        row-gap: 18em;
+        margin: 10em auto 0;
+    }
+    .quincy-card__text-name#Askin-text-name, .quincy-card__text-name#Pernida-text-name, .quincy-card__text-name#Gerard-text-name {
+        top: -14em;
+        text-align: center;
+        line-height: 1;
+        padding: 6px 0;
+    }
+    .quincy-card__text-name#Barro-text-name {
+        top: -13em;
+    }
+    .EliteH1 {
+        text-align: center;
+    }
+    .EliteQ {
+        row-gap: 18em;
+        margin: 12.5em auto 0;
+    }
+    .quincy-card__text-name#Bambietta-text-name, .quincy-card__text-name#Liltotto-text-name, .quincy-card__text-name#PePe-text-name, .quincy-card__text-name#Robert-text-name, .quincy-card__text-name#Meninas-text-name, .quincy-card__text-name#Berenice-text-name, .quincy-card__text-name#Jerome-text-name, .quincy-card__text-name#Mask-text-name, .quincy-card__text-name#Candice-text-name, .quincy-card__text-name#NaNaNa-text-name, .quincy-card__text-name#Gremmy-text-name, .quincy-card__text-name#Nianzol-text-name, .quincy-card__text-name#Lloyd-text-name, .quincy-card__text-name#Giselle-text-name {
+        top: -14.5em;
+        text-align: center;
+        line-height: 1;
+        padding: 6px 0;
+    }
+    .quincy-card__text#Bambietta-text, .quincy-card__text#Liltotto-text, .quincy-card__text#PePe-text, .quincy-card__text#Robert-text, .quincy-card__text#Meninas-text, .quincy-card__text#Berenice-text, .quincy-card__text#Jerome-text, .quincy-card__text#Mask-text, .quincy-card__text#Candice-text, .quincy-card__text#NaNaNa-text, .quincy-card__text#Gremmy-text, .quincy-card__text#Nianzol-text, .quincy-card__text#Lloyd-text, .quincy-card__text#Giselle-text {
+        top: -18.15em;
+    }
+    .image-card {
+        width: 23em;
+        height: 15em;
+    }
+    .image-card#Visored {
+        width: 23em;
+        height: 18em;
+    }
+    .other-desc-card, .other-slide-desc-card, .other-slide-desc-card1, .other-slide-desc-card2, .other-slide-desc-card3,     .gotei-desc-card, .lieutenant-desc-card, .slider-gotei-desc-card, .slider-gotei-desc-card1, .slider-gotei-desc-card2, .slider-gotei-desc-card3, .slider-gotei-desc-card4, .slider-gotei-desc-card5, .slider-gotei-desc-card6, .slider-gotei-desc-card7, .slider-gotei-desc-card8, .slider-gotei-desc-card9, .slider-lieutenant-desc-card, .slider-lieutenant-desc-card1, .slider-lieutenant-desc-card2, .slider-lieutenant-desc-card3, .slider-lieutenant-desc-card4, .slider-lieutenant-desc-card5, .slider-lieutenant-desc-card6 {
+        width: 85%;
+    }
+    .other-slide-desc-card, .other-slide-desc-card1, .other-slide-desc-card2, .other-slide-desc-card3,     .gotei-desc-card, .lieutenant-desc-card, .slider-gotei-desc-card, .slider-gotei-desc-card1, .slider-gotei-desc-card2, .slider-gotei-desc-card3, .slider-gotei-desc-card4, .slider-gotei-desc-card5, .slider-gotei-desc-card6, .slider-gotei-desc-card7, .slider-gotei-desc-card8, .slider-gotei-desc-card9, .slider-lieutenant-desc-card, .slider-lieutenant-desc-card1, .slider-lieutenant-desc-card2, .slider-lieutenant-desc-card3, .slider-lieutenant-desc-card4, .slider-lieutenant-desc-card5, .slider-lieutenant-desc-card6 {
+        margin: 5vh 0 0 3%;
+    }
+    .other-desc-card {
+        margin: 10vh 0 0 3%;
+    }
+    .other-desc-card#Chad-desc-card {
+        margin: 10vh 0 5em 3%;
+    }
+    .right-arrow2#g-arrow1, .right-arrow1#g-arrow3, .right-arrow3#g-arrow5, .right-arrow4#g-arrow7, .right-arrow5#g-arrow9, .right-arrow6#g-arrow11, .right-arrow7#g-arrow13, .right-arrow8#g-arrow15, .right-arrow9#g-arrow17, .right-arrow10#g-arrow19, .right-arrow11#g-arrow21, .right-arrow12#g-arrow23, .right-arrow13#g-arrow25, .right-arrow14#g-arrow27, .right-arrow15#g-arrow29, .right-arrow16#g-arrow31, .right-arrow17#g-arrow33 {
+        right: -1.9%;
+    }
+    #o-arrow1, #o-arrow3, #o-arrow5, #o-arrow7 {
+        right: 1%;
+    }
+    .aboutP {
+        margin: -1em auto 0;
+    }
+    .aboutP#p1 {
+        margin-top: 0em;
+    }
+    .aboutP#Contact {
+        margin: 0em auto 5em;
+    }
+    .about-image {
+        width: 25em;
+        height: 17em;
+    }
+    /* DISPLAY */
+    .espada-card__image::after, #Nelliel-text br, .slider, .slider-gotei-card, .quincy-card__image::after, #o-arrow2, #o-arrow4, #o-arrow6, #o-arrow8 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 1100px) {
+    .gotei__h2 {
+        margin: 295em auto 0;
+    }
+    .slider0 {
+        margin: -100vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: -3em auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 1000px) {
+    #grid-gotei-one1 {
+        margin: 0em auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 935px) {
+    #grid-gotei-one1 {
+        margin: 2em auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 850px) {
+    #backToTop {
+        bottom: 80px;
+    }
+    .gotei__h2 {
+        margin: 300em auto 0;
+    }
+    .gotei__h1 {
+        font-size: 4.5em;
+        margin: -185vh auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -80.2vh;
+    }
+    #grid-gotei-one1 {
+        margin: 4em auto 0;
+    }
+    .slider0 {
+        margin: -75vh auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 790px) {
+    .gotei__h1 {
+        margin: -195vh auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -82.2vh;
+    }
+    #grid-gotei-one1 {
+        margin: 6em auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 730px) {
+    .gotei__h2 {
+        margin: 305em auto 0;
+    }
+    .gotei__h1 {
+        font-size: 4.2em;
+    }
+    .ClickOnCharacterGotei {
+        top: -80.2vh;
+    }
+    .slider0 {
+        margin: -60vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: 8em auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 560px) {
+    .gotei__h2 {
+        margin: 310em auto 0;
+    }
+    .gotei__h1 {
+        font-size: 4.2em;
+        margin: -195vh auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -77.2vh;
+    }
+    .slider0 {
+        margin: -45vh auto 0;
+    }
+}
+
+@media (max-width: 500px) and (max-height: 500px) {
+    .gotei__h2 {
+        margin: 320em auto 0;
+    }
+    .gotei__h1 {
+        font-size: 4.2em;
+        margin: -155vh auto 0;
+    }
+    .ClickOnCharacterGotei {
+        top: -55.2vh;
+    }
+    .slider0 {
+        margin: 15vh auto 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #backToTop {
+        right: 20px; 
+        bottom: 85px;
+        width: 65px;
+        height: 65px;
+        border: 2px solid rgba(0, 14, 117, 0.85);
+    }
+    .bg#bleach-bg {
+        background-position: calc(100% + 13em);
+        border-radius: 0 0 30px 30px;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 900px) {
+    .grid__bleach {
+        border: 3px solid white;
+        width: 110%;
+        height: 110%;
+        gap: 1.5em;
+        top: -13%;
+        border-radius: 15px;
+    }
+    .bleach-card {
+        width: 19em;
+        height: 24em;
+        right: 0;
+        margin: -137em auto 0;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 660px) {
+    .nav-card {
+        width: 20em;
+        height: 24em;
+    }
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .grid__bleach {
+        width: 110%;
+        height: 110%;
+        top: -13%;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 900px) {
+    .grid__bleach {
+        border: 3px solid white;
+        width: 110%;
+        height: 110%;
+        top: -13%;
+        border-radius: 15px;
+    }
+    .ClickOnCharacterBleach {
+        font-size: 1.5em;
+        top: -76vh;
+    }
+    .bleach-card {
+        width: 19em;
+        height: 24em;
+        right: 0;
+        margin: -137em auto 0;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 850px) {
+    .ClickOnCharacterBleach {
+        top: -79vh;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 700px) {
+    .ClickOnCharacterBleach {
+        top: -88vh;
+    }
+}
+
+@media (max-width: 410px) {
+    .aboutP {
+        margin: -1em auto 0;
+    }
+    .aboutP#p1 {
+        margin-top: 0em;
+    }
+    .aboutP#Contact {
+        margin: 0em auto 5em;
+    }
+    .about-image {
+        width: 20em;
+        height: 17em;
+    }
+}
+
+@media (max-width: 400px) {
+    /* ESPADA PAGE */
+    .espada-card {
+        width: 18em;
+        height: 23em;
+    }
+    .espada__h1 {
+        top: 1.5em;
+    }
+    .espada-card__member-text-name, .espada-card__text-name, .espada-card__member-text-name {
+        font-size: 2.1em;
+    }
+    .espada-card__member-text-name#Ulquiorra-text-name {
+        font-size: 2em;
+    }
+    .espada-card__text-name {
+        top: -13.8em;
+    }
+    .espada-card__text {
+        top: -15.4em;
+        font-size: 1.9em;
+    }
+    .espada-card__member-text-name {
+        top: -14.5em;
+    }
+    .espada-card__member-text {
+        font-size: 2em;
+        top: -14.8em;
+    }
+    .espada-card__member-text#Nelliel-text {
+        top: -16.7em;
+        font-size: 1.95em;
+    }
+    .espada-card__member-text#Ulquiorra-text {
+        top: -15.5em;
+        font-size: 1.95em;
+    }
+    .espada-card__member-text#Yammy-text, .espada-card__member-text#Harribel-text, .espada-card__member-text#Nnoitra-text, .espada-card__member-text-name#Ulquiorra-text, .espada-card__member-text#Starrk-text {
+        top: -15.3em;
+    }
+    .espada-card__member-text-name#Nelliel-text-name, .espada-card__member-text-name#Grimmjow-text-name, .espada-card__member-text-name#Zommari-text-name, .espada-card__member-text-name#Szayelaporro-text-name, .espada-card__member-text-name#Aaroniero-text-name, .espada-card__member-text-name#Yammy-text-name {
+        top: -14.5em;
+    }
+    .espada-card__member-text-name#Baraggan-text-name, .espada-card__member-text-name#Nelliel-text-name, .espada-card__member-text-name#Grimmjow-text-name, .espada-card__member-text-name#Zommari-text-name, .espada-card__member-text-name#Szayelaporro-text-name, .espada-card__member-text-name#Aaroniero-text-name {
+        top: -15.5em;
+    }
+    .espada-card__member-text-name#Ulquiorra-text-name {
+        top: -15em;
+        font-size: 2em;
+    }
+    .espada-card__member-text#Zommari-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Aaroniero-text {
+        top: -15.6em;
+    }
+    .espada-card__member-text#Baraggan-text, .espada-card__member-text#Grimmjow-text, .espada-card__member-text#Szayelaporro-text, .espada-card__member-text#Zommari-text,  .espada-card__member-text#Aaroniero-text {
+        top: -16.30em;
+    }
+    /* GOTEI PAGE */
+    .gotei-card, .slider-gotei-card0 {
+        width: 18em;
+        height: 23em;
+    }
+    button.right-arrow, button.left-arrow {
+        transform: translateY(-380%);
+    }
+    .gotei-card__text-name {
+        position: relative;
+        top: -13.4em;
+        font-size: 2.3em;
+    }
+    .gotei-card__devision-text {
+        font-size: 1.8em;
+        top: -17.2em;
+    }
+    .gotei-card__text-name#Yamamoto-text-name, .gotei-card__text-name#Rojuro-text-name, .gotei-card__text-name#Unohana-text-name, .gotei-card__text-name#Byakuya-text-name, .gotei-card__text-name#Komamura-text-name, .gotei-card__text-name#Kyoraku-text-name, .gotei-card__text-name#Kensei-text-name, .gotei-card__text-name#Toshiro-text-name, .gotei-card__text-name#Kenpachi-text-name, .gotei-card__text-name#Mayuri-text-name, .gotei-card__text-name#Ukitake-text-name {
+        top: -14.5em;
+    }
+    .gotei-card__devision-text#Yamamoto-devision-text, .gotei-card__devision-text#Rojuro-devision-text, .gotei-card__devision-text#Unohana-devision-text, .gotei-card__devision-text#Byakuya-devision-text, .gotei-card__devision-text#Komamura-devision-text, .gotei-card__devision-text#Kyoraku-devision-text, .gotei-card__devision-text#Kensei-devision-text, .gotei-card__devision-text#Toshiro-devision-text, .gotei-card__devision-text#Kenpachi-devision-text, .gotei-card__devision-text#Mayuri-devision-text, .gotei-card__devision-text#Ukitake-devision-text {
+        top: -18.6em;
+    }
+    /* QUINCY PAGE */
+    .quincy-card, .quincy-card1, .quincy-card2 {
+        width: 18em;
+        height: 23em;
+    }
+    .quincy-card__text-name {
+        font-size: 2.1em;
+        top: -13.5em;
+    }
+    .quincy-card__text, .quincy-card__text2 {
+        font-size: 1.9em;
+        top: -15em;
+    }
+    .quincy-card__text-name#Bambietta-text-name, .quincy-card__text-name#Liltotto-text-name, .quincy-card__text-name#PePe-text-name, .quincy-card__text-name#Robert-text-name, .quincy-card__text-name#Meninas-text-name, .quincy-card__text-name#Berenice-text-name, .quincy-card__text-name#Jerome-text-name, .quincy-card__text-name#Mask-text-name, .quincy-card__text-name#Candice-text-name, .quincy-card__text-name#NaNaNa-text-name, .quincy-card__text-name#Gremmy-text-name, .quincy-card__text-name#Nianzol-text-name, .quincy-card__text-name#Lloyd-text-name, .quincy-card__text-name#Giselle-text-name, .quincy-card__text-name#Jugram-text-name {
+        top: -14.8em;
+    }
+    .quincy-card__text#Bambietta-text, .quincy-card__text#Liltotto-text, .quincy-card__text#PePe-text, .quincy-card__text#Robert-text, .quincy-card__text#Meninas-text, .quincy-card__text#Berenice-text, .quincy-card__text#Jerome-text, .quincy-card__text#Mask-text, .quincy-card__text#Candice-text, .quincy-card__text#NaNaNa-text, .quincy-card__text#Gremmy-text, .quincy-card__text#Nianzol-text, .quincy-card__text#Lloyd-text, .quincy-card__text#Giselle-text, .quincy-card__text2#Jugram-text {
+        top: -16.35em;
+    }
+    .quincy-card__text-name#Barro-text-name {
+        top: -13.6em;
+    }
+    .quincy-card__text-name#Askin-text-name, .quincy-card__text-name#Pernida-text-name, .quincy-card__text-name#Gerard-text-name {
+        top: -15em;
+        text-align: center;
+        line-height: 1;
+        padding: 6px 0;
+    }
+    /* OTHER PAGE */
+    .other-desc-card, .other-slide-desc-card, .other-slide-desc-card1, .other-slide-desc-card2, .other-slide-desc-card3 {
+        width: 80%;
+    }
+    #o-arrow1, #o-arrow3, #o-arrow5, #o-arrow7 {
+        right: 3%;
+    }
+    .image-card {
+        width: 19em;
+        height: 12em;
+    }
+    .image-card#Visored {
+        width: 19em;
+        height: 15em;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 1100px) {
+    .gotei__h2 {
+        margin: 275em auto 0;
+    }
+    .slider0 {
+        margin: -70vh auto 0;
+    }
+    #grid-gotei-one1 {
+        margin: 5em auto 0;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 1000px) {
+    #grid-gotei-one1 {
+        margin: 7em auto 0;
+    }
+}
+
+@media (max-width: 380px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .grid__bleach {
+        width: 105%;
+        height: 107%;
+        top: -13%;
+        border-radius: 15px;
+    }
+    .bleach-card {
+        width: 19em;
+        height: 24em;
+        right: 0;
+        margin: -110em auto 0;
+    }
+    .nav-card {
+        width: 17em;
+        height: 22em;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 900px) {
+    .ClickOnCharacterBleach {
+        top: -71vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 820px) {
+    .bleach-card {
+        margin: -108.5em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -76vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 700px) {
+    .ClickOnCharacterBleach {
+        top: -84vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 760px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .grid__bleach {
+        width: 110%;
+        height: 110%;
+        top: -8%;
+        border-radius: 15px;
+    }
+    .nav-card {
+        width: 17em;
+    }
+    .bleach-card {
+        width: 19em;
+        height: 24em;
+        right: 0;
+        margin: -107em auto 0;
+    }
+}
