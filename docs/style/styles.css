@@ -45,6 +45,18 @@
     }
 }
 
+@media (min-height: 1000px) {
+    .bleach-card {
+        margin-top: -70em;
+    }
+    .espada__h1 {
+        top: 4.5em;
+    }
+    .espada-members {
+        margin-top: 62vh;
+    }
+}
+
 @media (max-width: 1400px) {
     .espada-leaders {
         width: 95%;
