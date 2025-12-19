@@ -15,12 +15,33 @@
         top: -13em;
         display: flex;
     }
-    .quincy-card__text2#Yhwach-text {
-        -webkit-text-stroke: 0.5px black;
-    }
     .quincy-card {
         height: 27em;
         width: 22em;
+    }
+}
+
+@media (min-height: 800px) {
+    .bleach-card {
+        margin-top: -66em;
+    }
+    .espada__h1 {
+        top: 3em;
+    }
+    .espada-members {
+        margin-top: 55vh;
+    }
+}
+
+@media (min-height: 900px) {
+    .bleach-card {
+        margin-top: -68em;
+    }
+    .espada__h1 {
+        top: 4em;
+    }
+    .espada-members {
+        margin-top: 60vh;
     }
 }
 
