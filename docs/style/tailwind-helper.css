@@ -267,7 +267,8 @@
         @apply min-h-full w-full touch-pan-y overscroll-x-none;
     }
     body {
-        @apply relative bg-white min-w-full h-full scroll-smooth overflow-x-hidden;
+        @apply relative min-w-full h-full scroll-smooth overflow-x-hidden;
+        background-color: rgb(234, 234, 234)
     }
     header {
         @apply relative w-full h-auto;
