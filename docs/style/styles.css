@@ -19,6 +19,12 @@
         height: 27em;
         width: 22em;
     }
+    .espada-desc-card, .quincy-desc-card, .bleach-desc-card {
+        scroll-margin-top: 200px;
+    }
+    .gotei-desc__division {
+        scroll-margin-top: 190px;
+    }
 }
 
 @media (min-height: 800px) {
@@ -30,6 +36,12 @@
     }
     .espada-members {
         margin-top: 55vh;
+    }
+    .espada-desc-card, .quincy-desc-card, .bleach-desc-card {
+        scroll-margin-top: 230px;
+    }
+    .gotei-desc__division {
+        scroll-margin-top: 200px;
     }
 }
 
@@ -67,6 +79,12 @@
     #o-arrow8 {
         top: 83%;
     }
+    .espada-desc-card, .quincy-desc-card, .bleach-desc-card {
+        scroll-margin-top: 270px;
+    }
+    .gotei-desc__division {
+        scroll-margin-top: 250px;
+    }
 }
 
 @media (min-height: 1000px) {
@@ -78,6 +96,9 @@
     }
     .espada-members {
         margin-top: 62vh;
+    }
+    .espada-desc-card, .quincy-desc-card, .bleach-desc-card, .gotei-desc__division {
+        scroll-margin-top: 300px;
     }
 }
 
@@ -2085,5 +2106,11 @@
     }
     #o-arrow8 {
         top: 77%;
+    }
+    .espada-desc-card, .quincy-desc-card, .bleach-desc-card {
+        scroll-margin-top: 40px;
+    }
+    .gotei-desc__division {
+        scroll-margin-top: 10px;
     }
 }
