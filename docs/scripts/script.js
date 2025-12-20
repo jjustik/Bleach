@@ -1748,13 +1748,13 @@ function onPlayerReady(){
     }
 
     // Если автозапуск не разрешён — явно поставить на паузу (защита от непреднамеренного autoplay)
-    // if (!(savedIsPlaying && userInitiated) && typeof player.pauseVideo === 'function') {
+    if (!(savedIsPlaying && userInitiated) && typeof player.pauseVideo === 'function') {
         // небольшая задержка, чтобы гарантированно остановить автоплей
-        // setTimeout(() => { try { player.pauseVideo(); } catch (e) {} }, 50);}
-    // } else {
+        try { player.pauseVideo(); } catch (e) {};
+    } else {
         // разрешён автозапуск
-    //     try { if (typeof player.playVideo === 'function') player.playVideo(); } catch (e) {}
-    // }
+        try { if (typeof player.playVideo === 'function') player.playVideo(); } catch (e) {}
+    }
 
     // Запуск обновления таймлайна
     if (updateInterval) clearInterval(updateInterval);
