@@ -1756,6 +1756,32 @@ function onPlayerReady(){
         try { if (typeof player.playVideo === 'function') player.playVideo(); } catch (e) {}
     }
 
+    if (typeof player.addEventListener === 'function') {
+    player.addEventListener('onStateChange', function(e) {
+
+        // PLAY → включаем автозапуск
+        if (e.data === YT.PlayerState.PLAYING) {
+            sessionStorage.setItem('playerUserInitiated', '1');
+
+            const savedStr2 = localStorage.getItem("playerState");
+            const saved2 = savedStr2 ? JSON.parse(savedStr2) : {};
+            saved2.isPlaying = true;
+            localStorage.setItem("playerState", JSON.stringify(saved2));
+        }
+
+        // PAUSE → отключаем автозапуск
+        if (e.data === YT.PlayerState.PAUSED) {
+            sessionStorage.setItem('playerUserInitiated', '0');
+
+            const savedStr3 = localStorage.getItem("playerState");
+            const saved3 = savedStr3 ? JSON.parse(savedStr3) : {};
+            saved3.isPlaying = false;
+            localStorage.setItem("playerState", JSON.stringify(saved3));
+        }
+
+    });
+}
+
     // Запуск обновления таймлайна
     if (updateInterval) clearInterval(updateInterval);
     updateInterval = setInterval(() => {
