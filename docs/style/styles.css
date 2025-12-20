@@ -1612,9 +1612,6 @@
     .other-desc-card {
         margin: 10vh 0 0 3%;
     }
-    .other-desc-card#Chad-desc-card {
-        margin: 10vh 0 5em 3%;
-    }
     .right-arrow2#g-arrow1, .right-arrow1#g-arrow3, .right-arrow3#g-arrow5, .right-arrow4#g-arrow7, .right-arrow5#g-arrow9, .right-arrow6#g-arrow11, .right-arrow7#g-arrow13, .right-arrow8#g-arrow15, .right-arrow9#g-arrow17, .right-arrow10#g-arrow19, .right-arrow11#g-arrow21, .right-arrow12#g-arrow23, .right-arrow13#g-arrow25, .right-arrow14#g-arrow27, .right-arrow15#g-arrow29, .right-arrow16#g-arrow31, .right-arrow17#g-arrow33 {
         right: -1.9%;
     }
