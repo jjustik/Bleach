@@ -318,6 +318,12 @@
     }
 }
 
+@media (max-width: 1250px) and (max-height: 580px) {
+    .slider0 {
+        margin: -75vh auto 0;
+    }
+}
+
 @media (max-width: 1222px) {
     .grid__bleach {
         grid-template-columns: 1fr;
@@ -407,6 +413,7 @@
     .bleach-desc-card__text, .gotei-desc-card__text, .lieutenant-desc-card__text, .espada-desc-card__text, .quincy-desc-card__text, .other-slide-desc-card__text {
         flex-direction: column;
         padding: 2% 5%;
+        overflow-wrap: anywhere;
     }
     /* QUINCY PAGE */
     .bg#quincy-bg {
@@ -716,6 +723,12 @@
     }
     .slider0 {
         margin: -110vh auto 0;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 580px) {
+    .slider0 {
+        margin: -75vh auto 0;
     }
 }
 
@@ -2015,5 +2028,62 @@
         height: 24em;
         right: 0;
         margin: -107em auto 0;
+    }
+}
+
+@media (max-height: 580px) {
+    .bleach-card {
+        margin: -110em auto 0;
+    }
+    .grid__bleach {
+        top: 25%;
+    }
+    .bleach-desc-card {
+        margin: 40em auto 0;
+    }
+    .gotei__h1 {
+        margin: -145vh auto 0;
+    }
+    #grid-gotei-two2 {
+        margin: 40vh auto 0;
+    }
+    #grid-gotei-three3 {
+        margin: 40vh auto 0;
+    }
+    #grid-gotei-four4 {
+        margin: 40vh auto 0;
+    }
+    #grid-gotei-five5 {
+        margin: 40vh auto 0;
+    }
+    #grid-gotei-six6 {
+        margin: 40vh auto 0;
+    }
+    .espada-members {
+        margin: 110vh auto 0;
+    }
+    #o-arrow1 {
+        top: 76%;
+    }
+    #o-arrow2 {
+        top: 76%;
+    }
+    #o-arrow3 {
+        top: 78%;
+    }
+    #o-arrow4 {
+        top: 78%;
+    }
+    #o-arrow5 {
+        top: 75%;
+    }
+    #o-arrow6 {
+        top: 75%;
+    }
+    #o-arrow7 {
+        top: 77%;
+    }
+    #o-arrow8 {
+        top: 77%;
     }
 }
