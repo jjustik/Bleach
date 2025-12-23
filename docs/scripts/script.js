@@ -1542,7 +1542,7 @@ const DEFAULT_VIDEO_ID = 'ZflJXsO1bmo'; // общий fallback
 const VIDEO_BY_PAGE = {
     espada: 'iijKJdUDR3c',
     bleach: 'ZflJXsO1bmo',
-    gotei: 'AkQ6Z_9uuIA',
+    gotei: 'YooUZ4Ld-j8',
     quincy: 'juigm_MD6vU',
     // добавляйте сюда другие страницы: pageId: 'YouTubeID'
     // gotei: 'XYZ...',
