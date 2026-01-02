@@ -179,7 +179,7 @@
         transform: translateX(-50%) rotate(35deg);
         animation: slideRotateInClickOnCharacter2 1.8s ease-out 2.5s forwards;
     }
-    .br, .br1, .gotei-card__image::after, .slider-gotei-card__image::after, .espada-card__image::after, .quincy-card__image::after, .slider, .slider-gotei-card, #grid-gotei-one, #grid-gotei-two, #grid-gotei-three, #grid-gotei-main, #grid-gotei-four, #grid-gotei-five, #grid-gotei-six {
+    .br, .br1, .bleach-card__image::after, .gotei-card__image::after, .slider-gotei-card__image::after, .espada-card__image::after, .quincy-card__image::after, .slider, .slider-gotei-card, #grid-gotei-one, #grid-gotei-two, #grid-gotei-three, #grid-gotei-main, #grid-gotei-four, #grid-gotei-five, #grid-gotei-six {
         display: none;
     }
     .br#gotei-br, .br1#bleach-br, .br#espada-br, .br#quincy-br {
