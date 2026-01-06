@@ -2281,7 +2281,7 @@
     .grid__bleach {
         width: 112%;
         height: 110%;
-        top: -11%;
+        top: -15%;
         border-radius: 15px;
     }
     .nav-card {
@@ -2291,7 +2291,7 @@
         width: 17em;
         height: 21em;
         right: 0;
-        margin: -120.5em auto 0;
+        margin: -108.5em auto 0;
     }
     .ClickOnCharacterBleach {
         top: -70vh;
