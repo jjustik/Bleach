@@ -2291,7 +2291,7 @@
         width: 17em;
         height: 21em;
         right: 0;
-        margin: -108.5em auto 0;
+        margin: -104.5em auto 0;
     }
     .ClickOnCharacterBleach {
         top: -70vh;
@@ -2332,11 +2332,17 @@
     .bleach-card {
         margin: -105.5em auto 0;
     }
+    .ClickOnCharacterBleach {
+        top: -83vh;
+    }
 }
 
 @media (max-width: 380px) and (max-height: 630px) {
     .bleach-card {
         margin: -104.5em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -87vh;
     }
 }
 
