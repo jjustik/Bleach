@@ -1880,7 +1880,88 @@
         margin: -135em auto 0;
     }
     .ClickOnCharacterBleach {
-        top: -80vh;
+        top: -71vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 865px)  {
+    .ClickOnCharacterBleach {
+        top: -73vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 845px)  {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -134em auto 0;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 815px) {
+    .ClickOnCharacterBleach {
+        top: -75vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 795px) {
+    .ClickOnCharacterBleach {
+        top: -77vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 775px) {
+    .ClickOnCharacterBleach {
+        top: -79vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 755px) {
+    .ClickOnCharacterBleach {
+        top: -81vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 735px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -133em auto 0;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 715px) {
+    .ClickOnCharacterBleach {
+        top: -83vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 700px) {
+    .ClickOnCharacterBleach {
+        top: -85vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 685px) {
+    .ClickOnCharacterBleach {
+        top: -87vh;
+        left: 50%;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 665px) {
+    .ClickOnCharacterBleach {
+        top: -89vh;
         left: 50%;
     }
 }
