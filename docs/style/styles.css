@@ -1254,7 +1254,7 @@
 
 @media (max-width: 580px) and (max-height: 980px) {
     .grid__bleach {
-        top: -11%;
+        top: -12%;
     }
     .ClickOnCharacterBleach {
         top: -65vh;
@@ -1979,6 +1979,12 @@
     }
 }
 
+@media (max-width: 420px) {
+    .ClickOnCharacterBleach {
+        font-size: 1.5em;
+    }
+}
+
 @media (max-width: 420px) and (max-height: 900px) {
     .grid__bleach {
         border: 3px solid white;
@@ -2002,6 +2008,36 @@
 @media (max-width: 420px) and (max-height: 850px) {
     .ClickOnCharacterBleach {
         top: -76vh;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 820px) {
+    .ClickOnCharacterBleach {
+        top: -78vh;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 780px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -133em auto 0;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 750px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -132em auto 0;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 720px) {
+    .ClickOnCharacterBleach {
+        top: -80vh;
     }
 }
 
@@ -2184,7 +2220,7 @@
         width: 17em;
         height: 21em;
         right: 0;
-        margin: -110em auto 0;
+        margin: -114em auto 0;
     }
     .nav-card {
         width: 17em;
@@ -2193,8 +2229,26 @@
 }
 
 @media (max-width: 380px) and (max-height: 900px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -112em auto 0;
+    }
     .ClickOnCharacterBleach {
-        top: -71vh;
+        top: -73.5vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 850px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -110em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -73.5vh;
     }
 }
 
