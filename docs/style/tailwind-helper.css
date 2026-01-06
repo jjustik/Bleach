@@ -1395,8 +1395,9 @@
         border-radius: calc(var(--height)/2);
     }
     .nav__switcher-tooltip {
-        @apply absolute top-[50%] right-[calc(100%-15px)] w-160 pt-5 px-7 pb-4 bg-transparent text-white text-[10px] leading-[1.15] flex flex-col gap-3 opacity-0 pointer-events-none z-1;
+        @apply absolute top-[50%] right-[calc(100%-15px)] w-160 pt-5 px-7 pb-4 text-white text-[10px] leading-[1.15] flex flex-col gap-3 opacity-0 pointer-events-none z-1;
         transform: translateY(-50%) translateX(25px);
+        background-color: rgba(0, 0, 0, 0.95);
         backdrop-filter: blur(2px) saturate(180%);
         -webkit-backdrop-filter: blur(2px) saturate(180%);
         font-family: var(--font-archivo);
