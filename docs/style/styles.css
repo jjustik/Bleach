@@ -2060,7 +2060,13 @@
         margin: -108.5em auto 0;
     }
     .ClickOnCharacterBleach {
-        top: -76vh;
+        top: -73vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 790px) {
+    .ClickOnCharacterBleach {
+        top: -75vh;
     }
 }
 
@@ -2073,28 +2079,6 @@
 @media (max-width: 380px) and (max-height: 670px) {
     .ClickOnCharacterBleach {
         top: -82vh;
-    }
-}
-
-@media (max-width: 380px) and (max-height: 760px) {
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-    .grid__bleach {
-        width: 112%;
-        height: 110%;
-        top: -11%;
-        border-radius: 15px;
-    }
-    .nav-card {
-        width: 17em;
-    }
-    .bleach-card {
-        width: 17em;
-        height: 21em;
-        right: 0;
-        margin: -105.5em auto 0;
     }
 }
 
