@@ -2062,19 +2062,13 @@
 
 @media (max-width: 380px) and (max-height: 790px) {
     .ClickOnCharacterBleach {
-        top: -75vh;
+        top: -73vh;
     }
 }
 
-@media (max-width: 380px) and (max-height: 700px) {
+@media (max-width: 380px) and (max-height: 780px) {
     .ClickOnCharacterBleach {
-        top: -79vh;
-    }
-}
-
-@media (max-width: 380px) and (max-height: 670px) {
-    .ClickOnCharacterBleach {
-        top: -82vh;
+        top: -74vh;
     }
 }
 
@@ -2097,6 +2091,39 @@
         height: 21em;
         right: 0;
         margin: -105.5em auto 0;
+    }
+    .ClickOnCharacterBleach {
+        top: -70vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 750px) {
+    .ClickOnCharacterBleach {
+        top: -72vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 730px) {
+    .ClickOnCharacterBleach {
+        top: -75vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 700px) {
+    .ClickOnCharacterBleach {
+        top: -77vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 685px) {
+    .ClickOnCharacterBleach {
+        top: -79vh;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 670px) {
+    .ClickOnCharacterBleach {
+        top: -81vh;
     }
 }
 
