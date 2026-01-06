@@ -1974,8 +1974,23 @@
     .grid__bleach {
         width: 110%;
         height: 110%;
-        top: -13%;
+        top: -10%;
         border-radius: 15px;
+    }
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -132em auto 0;
+    }
+}
+
+@media (max-width: 480px) and (max-height: 635px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -131em auto 0;
     }
 }
 
@@ -2039,9 +2054,33 @@
     .ClickOnCharacterBleach {
         top: -80vh;
     }
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -131em auto 0;
+    }
 }
 
 @media (max-width: 420px) and (max-height: 700px) {
+    .ClickOnCharacterBleach {
+        top: -83vh;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 680px) {
+    .ClickOnCharacterBleach {
+        top: -88vh;
+    }
+}
+
+@media (max-width: 420px) and (max-height: 620px) {
+    .bleach-card {
+        width: 17em;
+        height: 21em;
+        right: 0;
+        margin: -130em auto 0;
+    }
     .ClickOnCharacterBleach {
         top: -88vh;
     }
