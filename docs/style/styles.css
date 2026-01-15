@@ -8,7 +8,7 @@
 @media (min-height: 730px) {
     .grid-quincy {
         display: flex;
-        margin-top: -90dvh;
+        margin-top: -90vh;
     }
     .quincy-card__text2 {
         position: relative;
@@ -35,7 +35,7 @@
         top: 3em;
     }
     .espada-members {
-        margin-top: 55dvh;
+        margin-top: 55vh;
     }
     .espada-desc-card, .quincy-desc-card, .bleach-desc-card {
         scroll-margin-top: 230px;
@@ -53,7 +53,7 @@
         top: 4em;
     }
     .espada-members {
-        margin-top: 60dvh;
+        margin-top: 60vh;
     }
     #o-arrow1 {
         top: 82%;
@@ -95,7 +95,7 @@
         top: 4.5em;
     }
     .espada-members {
-        margin-top: 62dvh;
+        margin-top: 62vh;
     }
     .espada-desc-card, .quincy-desc-card, .bleach-desc-card, .gotei-desc__division {
         scroll-margin-top: 300px;
@@ -158,10 +158,10 @@
     }
     .gotei__h1 {
         font-size: 5em;
-        margin: -200dvh auto 0;
+        margin: -200vh auto 0;
     }
     .ClickOnCharacterGotei, .ClickOnCharacter, .ClickOnCharacterQuincy {
-        top: -77.2dvh;
+        top: -77.2vh;
         left: 75%;
         display: block;
         opacity: 0;
@@ -169,10 +169,10 @@
         animation: slideRotateInClickOnCharacter1 1.8s ease-out 2.5s forwards;
     }
     .ClickOnCharacter {
-        top: -75.2dvh;
+        top: -75.2vh;
     }
     .ClickOnCharacterBleach {
-        top: -85.2dvh;
+        top: -85.2vh;
         left: 65%;
         display: block;
         opacity: 0;
@@ -210,7 +210,7 @@
         align-items: end;
         overflow: hidden;
         height: 40em;
-        margin: -82dvh auto 0;
+        margin: -82vh auto 0;
     }
     .gotei-card, .slider-gotei-card0 {
         width: 17em;
@@ -236,25 +236,25 @@
         gap: 10em;
     }
     #grid-gotei-one1 {
-        margin: -110dvh auto 0;
+        margin: -110vh auto 0;
     }
     #grid-gotei-two2{
-        margin: -10dvh auto 0;
+        margin: -10vh auto 0;
     }
     #grid-gotei-three3 {
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     .slider0 {
-        margin: -120dvh auto 0;
+        margin: -120vh auto 0;
     }
     #grid-gotei-four4 {
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     #grid-gotei-five5 {
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     #grid-gotei-six6 {
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     .gotei-card__devision-text {
         top: -10.8em;
@@ -263,7 +263,7 @@
         margin-top: 0;
     }
     .espada-leaders {
-        margin-top: -65dvh;
+        margin-top: -65vh;
     }
 }
 
@@ -373,7 +373,7 @@
 
 @media (max-width: 1220px) {
     .espada-members {
-        margin: 60dvh auto 0;
+        margin: 60vh auto 0;
     }
     .espada-card {
         width: 17em;
@@ -480,7 +480,7 @@
 
 @media (max-width: 1200px) and (min-height: 1050px) {
     .grid-quincy {
-        margin-top: -110dvh;
+        margin-top: -110vh;
     }
 }
 
@@ -516,21 +516,21 @@
         margin: -145em auto 0;
     }
     .ClickOnCharacterBleach {
-        top: -70.2dvh;
+        top: -70.2vh;
         left: 80%;
     }
 }
 
 @media (max-width: 1100px) and (min-height: 1150px) {
     .ClickOnCharacterBleach {
-        top: -65.2dvh;
+        top: -65.2vh;
         left: 80%;
     }
 }
 
 @media (max-width: 1100px) and (min-height: 1350px) {
     .ClickOnCharacterBleach {
-        top: -60.2dvh;
+        top: -60.2vh;
         left: 80%;
     }
 }
@@ -566,7 +566,7 @@
     }
     .gotei__h1 {
         font-size: 5em;
-        margin: -200dvh auto 0;
+        margin: -200vh auto 0;
     }
     .gotei-card, .slider-gotei-card, .slider-gotei-card0 {
         width: 14em;
@@ -576,13 +576,13 @@
         height: 18em;
     }
     #grid-gotei-main0 {
-        margin: -130dvh auto 0;
+        margin: -130vh auto 0;
     }
     #grid-gotei-one1 {
-        margin: -40dvh auto 0;
+        margin: -40vh auto 0;
     }
     #grid-gotei-two2{
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     .gotei-card__devision-text {
         font-size: 2em;
@@ -600,10 +600,10 @@
     }
     /* ESPADA PAGE */
     .espada-leaders {
-        margin: -67dvh auto 0;
+        margin: -67vh auto 0;
     }
     .grid-quincy {
-        margin: -94dvh auto 0;
+        margin: -94vh auto 0;
     }
     .espada-card {
         width: 14em;
@@ -622,7 +622,7 @@
         padding: 10px 0;
     }
     .espada-members {
-        margin: 38.5dvh auto 0;
+        margin: 38.5vh auto 0;
     }
     .espada-card__member-text {
         font-size: 2em;
@@ -681,25 +681,25 @@
 
 @media (max-width: 960px) and (min-height: 800px) {
     .slider0 {
-        margin: -130dvh auto 0;
+        margin: -130vh auto 0;
     }
     #grid-gotei-one1 {
-        margin: -60dvh auto 0;
+        margin: -60vh auto 0;
     }
     #grid-gotei-two2{
-        margin: 10dvh auto 0;
+        margin: 10vh auto 0;
     }
 }
 
 @media (max-width: 960px) and (min-height: 1000px) {
     .slider0 {
-        margin: -127dvh auto 0;
+        margin: -127vh auto 0;
     }
     #grid-gotei-one1 {
-        margin: -70dvh auto 0;
+        margin: -70vh auto 0;
     }
     #grid-gotei-two2{
-        margin: 0dvh auto 0;
+        margin: 0vh auto 0;
     }
 }
 
@@ -719,22 +719,22 @@
 
 @media (max-width: 800px) {
     .grid-quincy {
-        margin: -67dvh auto 0;
+        margin: -67vh auto 0;
     }
     .gotei__h1 {
-        margin: -190dvh auto 0;
+        margin: -190vh auto 0;
     }
     #grid-gotei-one1, #grid-gotei-two2, #grid-gotei-three3, #grid-gotei-four4, #grid-gotei-five5, #grid-gotei-six6 {
         gap: 5em;
     }
     #grid-gotei-one1 {
-        margin: -35dvh auto 0;
+        margin: -35vh auto 0;
     }
     #grid-gotei-two2{
-        margin: 20dvh auto 0;
+        margin: 20vh auto 0;
     }
     #grid-gotei-main0 {
-        margin: -120dvh auto 0;
+        margin: -120vh auto 0;
     }
 }
 
@@ -863,7 +863,7 @@
         box-shadow: none;
     }
     .ClickOnCharacter, .ClickOnCharacterQuincy {
-        top: -75dvh;
+        top: -75vh;
     }
     .quincy-desc {
         width: 100%;
@@ -918,7 +918,7 @@
         position: fixed;
         top: 0;
         right: -100%;
-        height: 100dvh;
+        height: 100vh;
         width: min(15em, 100%);
         z-index: 10;
         border-left: 1px solid rgb(56, 56, 56);
@@ -1173,7 +1173,7 @@
 
 @media (max-width: 720px) {
     .gotei__h1 {
-        margin: -205dvh auto 0;
+        margin: -205vh auto 0;
     }
     .gotei__h2 {
         width: 80%;
@@ -1216,13 +1216,13 @@
         color: #4E87C9;
         font-size: 1.8em;
         border: 2px solid #4E87C9;
-        top: -72dvh;
+        top: -72vh;
         left: 50%;
         transform: translateX(-50%) rotate(0);
         animation: slideInClickOnCharacter 1.8s ease-out 2s forwards;
     }
     .ClickOnCharacterGotei {
-        top: -88.2dvh;
+        top: -88.2vh;
         left: 50%;
         display: block;
         transform: translateX(-50%) rotate(0deg);
@@ -1457,7 +1457,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-row-gap: 12em;
-        margin: -70dvh auto 0;
+        margin: -70vh auto 0;
     }
     .espada-card {
         width: 21em;
@@ -1541,19 +1541,19 @@
     }
     /* GOTEI PAGE */
     .gotei__h1 {
-        margin: -205dvh auto 0;
+        margin: -205vh auto 0;
     }
     .gotei__h2 {
         width: 80%;
         font-size: 1.7em;
     }
     .ClickOnCharacter, .ClickOnCharacterGotei {
-        top: -89.2dvh;
+        top: -89.2vh;
     }
     .ClickOnCharacterQuincy {
         color: #FF1473;
         border: 2px solid #FF1473;
-        top: -91dvh;
+        top: -91vh;
     }
     button.right-arrow, button.left-arrow {
         opacity: 0.8;
@@ -1580,7 +1580,7 @@
     }
     #grid-gotei-main0 {
         justify-content: center;
-        margin: 0dvh auto 0;
+        margin: 0vh auto 0;
     }
     #grid-gotei-one1 {
         margin: -10em auto 0;
@@ -1619,7 +1619,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-row-gap: 14em;
-        margin: -65dvh auto 0;
+        margin: -65vh auto 0;
     }
     .quincy-card, .quincy-card1 {
         width: 21em;
@@ -1712,10 +1712,10 @@
         width: 85%;
     }
     .other-slide-desc-card, .other-slide-desc-card1, .other-slide-desc-card2, .other-slide-desc-card3,     .gotei-desc-card, .lieutenant-desc-card, .slider-gotei-desc-card, .slider-gotei-desc-card1, .slider-gotei-desc-card2, .slider-gotei-desc-card3, .slider-gotei-desc-card4, .slider-gotei-desc-card5, .slider-gotei-desc-card6, .slider-gotei-desc-card7, .slider-gotei-desc-card8, .slider-gotei-desc-card9, .slider-lieutenant-desc-card, .slider-lieutenant-desc-card1, .slider-lieutenant-desc-card2, .slider-lieutenant-desc-card3, .slider-lieutenant-desc-card4, .slider-lieutenant-desc-card5, .slider-lieutenant-desc-card6 {
-        margin: 5dvh 0 0 3%;
+        margin: 5vh 0 0 3%;
     }
     .other-desc-card {
-        margin: 10dvh 0 0 3%;
+        margin: 10vh 0 0 3%;
     }
     .right-arrow2#g-arrow1, .right-arrow1#g-arrow3, .right-arrow3#g-arrow5, .right-arrow4#g-arrow7, .right-arrow5#g-arrow9, .right-arrow6#g-arrow11, .right-arrow7#g-arrow13, .right-arrow8#g-arrow15, .right-arrow9#g-arrow17, .right-arrow10#g-arrow19, .right-arrow11#g-arrow21, .right-arrow12#g-arrow23, .right-arrow13#g-arrow25, .right-arrow14#g-arrow27, .right-arrow15#g-arrow29, .right-arrow16#g-arrow31, .right-arrow17#g-arrow33 {
         right: -1.9%;
@@ -2281,7 +2281,7 @@
         margin: -116em auto 0;
     }
     .ClickOnCharacterBleach {
-        top: -82dvh;
+        top: -82vh;
     }
 }
 
