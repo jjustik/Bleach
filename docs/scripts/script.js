@@ -1,4 +1,35 @@
 document.addEventListener("DOMContentLoaded", () => {
+        // --- ГАРАНТИРОВАННОЕ СОЗДАНИЕ YT-ПЛЕЕРА ---
+        function recreateYTPlayerContainer() {
+            // Удалить старый iframe и контейнер, если есть
+            const old = document.getElementById('yt-player');
+            if (old) old.remove();
+            // Создать новый контейнер
+            const div = document.createElement('div');
+            div.id = 'yt-player';
+            // Вставить после .player (или в body, если не найден)
+            const playerBox = document.querySelector('.player');
+            if (playerBox && playerBox.nextSibling) {
+                playerBox.parentNode.insertBefore(div, playerBox.nextSibling);
+            } else if (playerBox) {
+                playerBox.parentNode.appendChild(div);
+            } else {
+                document.body.appendChild(div);
+            }
+        }
+
+        recreateYTPlayerContainer();
+
+        // --- Инициализация YouTube-плеера ---
+        function tryInitYouTubePlayer() {
+            if (typeof YT !== 'undefined' && YT.Player) {
+                if (typeof window.onYouTubeIframeAPIReady === 'function') {
+                    window.onYouTubeIframeAPIReady();
+                }
+            }
+            // Если YT ещё не загружен, YouTube вызовет onYouTubeIframeAPIReady сам
+        }
+        tryInitYouTubePlayer();
     // ------------------------ BACK TO TOP ------------------------
 const backToTop = document.getElementById("backToTop");
 
