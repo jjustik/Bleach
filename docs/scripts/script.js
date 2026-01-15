@@ -1778,40 +1778,35 @@ function onPlayerReady(){
         if (typeof updateVolumeUI === 'function' && volumeLevel && volumeThumb) updateVolumeUI(50);
     }
 
-    // Если автозапуск не разрешён — явно поставить на паузу (защита от непреднамеренного autoplay)
-    if (!(savedIsPlaying && userInitiated) && typeof player.pauseVideo === 'function') {
-        // небольшая задержка, чтобы гарантированно остановить автоплей
-        try { player.pauseVideo(); } catch (e) {};
-    } else {
-        // разрешён автозапуск
+    // Global autoplay: play if global flag is set
+    if (getGlobalAutoplay()) {
         try { if (typeof player.playVideo === 'function') player.playVideo(); } catch (e) {}
+    } else {
+        try { player.pauseVideo(); } catch (e) {};
     }
 
     if (typeof player.addEventListener === 'function') {
-    player.addEventListener('onStateChange', function(e) {
-
-        // PLAY → включаем автозапуск
-        if (e.data === YT.PlayerState.PLAYING) {
-            sessionStorage.setItem('playerUserInitiated', '1');
-
-            const savedStr2 = localStorage.getItem("playerState");
-            const saved2 = savedStr2 ? JSON.parse(savedStr2) : {};
-            saved2.isPlaying = true;
-            localStorage.setItem("playerState", JSON.stringify(saved2));
-        }
-
-        // PAUSE → отключаем автозапуск
-        if (e.data === YT.PlayerState.PAUSED) {
-            sessionStorage.setItem('playerUserInitiated', '0');
-
-            const savedStr3 = localStorage.getItem("playerState");
-            const saved3 = savedStr3 ? JSON.parse(savedStr3) : {};
-            saved3.isPlaying = false;
-            localStorage.setItem("playerState", JSON.stringify(saved3));
-        }
-
-    });
-}
+        player.addEventListener('onStateChange', function(e) {
+            // PLAY → set global autoplay
+            if (e.data === YT.PlayerState.PLAYING) {
+                sessionStorage.setItem('playerUserInitiated', '1');
+                setGlobalAutoplay(true);
+                const savedStr2 = localStorage.getItem(getPlayerStorageKey());
+                const saved2 = savedStr2 ? JSON.parse(savedStr2) : {};
+                saved2.isPlaying = true;
+                localStorage.setItem(getPlayerStorageKey(), JSON.stringify(saved2));
+            }
+            // PAUSE → clear global autoplay
+            if (e.data === YT.PlayerState.PAUSED) {
+                sessionStorage.setItem('playerUserInitiated', '0');
+                setGlobalAutoplay(false);
+                const savedStr3 = localStorage.getItem(getPlayerStorageKey());
+                const saved3 = savedStr3 ? JSON.parse(savedStr3) : {};
+                saved3.isPlaying = false;
+                localStorage.setItem(getPlayerStorageKey(), JSON.stringify(saved3));
+            }
+        });
+    }
 
     // Запуск обновления таймлайна
     if (updateInterval) clearInterval(updateInterval);
@@ -1835,5 +1830,119 @@ window.addEventListener("scroll", () => {
         playerEl.classList.remove("player--hidden");
     }
 });
+
+// --- Per-page player state key ---
+function getPlayerStorageKey() {
+    const body = document.body;
+    let pageKey = (body && body.id) ? body.id.trim().toLowerCase() : '';
+    if (!pageKey) pageKey = location.pathname.replace(/\W+/g, '_');
+    return 'playerState_' + pageKey;
+}
+
+// --- Global autoplay flag ---
+function setGlobalAutoplay(val) {
+    try { localStorage.setItem('playerGlobalAutoplay', val ? '1' : '0'); } catch(e){}
+}
+function getGlobalAutoplay() {
+    try { return localStorage.getItem('playerGlobalAutoplay') === '1'; } catch(e) { return false; }
+}
+
+// === Save state before leaving page ===
+window.addEventListener("beforeunload", () => {
+    if (player && typeof player.getCurrentTime === "function") {
+        const state = {
+            time: player.getCurrentTime(),
+            volume: player.getVolume(),
+            isPlaying: isPlaying
+        };
+        localStorage.setItem(getPlayerStorageKey(), JSON.stringify(state));
+    }
+});
+
+// === Restore state on player ready ===
+function onPlayerReady(){
+    setTimeout(()=>{
+        duration = (player && typeof player.getDuration === 'function') ? player.getDuration()||0 : 0;
+        if (durationEl) durationEl.textContent = formatTime(duration);
+    }, 500);
+
+    // Restore per-page state
+    const savedStr = localStorage.getItem(getPlayerStorageKey());
+    const saved = savedStr ? JSON.parse(savedStr) : null;
+    // Restore volume/position
+    if (saved) {
+        if (typeof player.setVolume === 'function') player.setVolume(saved.volume != null ? saved.volume : 50);
+        if (typeof updateVolumeUI === 'function' && volumeLevel && volumeThumb) updateVolumeUI(saved.volume != null ? saved.volume : 50);
+        if (saved.time && typeof player.seekTo === 'function') player.seekTo(saved.time);
+    } else {
+        if (typeof player.setVolume === 'function') player.setVolume(50);
+        if (typeof updateVolumeUI === 'function' && volumeLevel && volumeThumb) updateVolumeUI(50);
+    }
+
+    // Global autoplay: play if global flag is set
+    if (getGlobalAutoplay()) {
+        try { if (typeof player.playVideo === 'function') player.playVideo(); } catch (e) {}
+    } else {
+        try { player.pauseVideo(); } catch (e) {};
+    }
+
+    if (typeof player.addEventListener === 'function') {
+        player.addEventListener('onStateChange', function(e) {
+            // PLAY → set global autoplay
+            if (e.data === YT.PlayerState.PLAYING) {
+                sessionStorage.setItem('playerUserInitiated', '1');
+                setGlobalAutoplay(true);
+                const savedStr2 = localStorage.getItem(getPlayerStorageKey());
+                const saved2 = savedStr2 ? JSON.parse(savedStr2) : {};
+                saved2.isPlaying = true;
+                localStorage.setItem(getPlayerStorageKey(), JSON.stringify(saved2));
+            }
+            // PAUSE → clear global autoplay
+            if (e.data === YT.PlayerState.PAUSED) {
+                sessionStorage.setItem('playerUserInitiated', '0');
+                setGlobalAutoplay(false);
+                const savedStr3 = localStorage.getItem(getPlayerStorageKey());
+                const saved3 = savedStr3 ? JSON.parse(savedStr3) : {};
+                saved3.isPlaying = false;
+                localStorage.setItem(getPlayerStorageKey(), JSON.stringify(saved3));
+            }
+        });
+    }
+
+    // Start timeline update
+    if (updateInterval) clearInterval(updateInterval);
+    updateInterval = setInterval(() => {
+        if (player && typeof player.getCurrentTime === "function") {
+            updateProgressUI(player.getCurrentTime());
+        }
+    }, 250);
+}
+
+// Play/Pause — мгновенно меняем UI и глобальный автоплей
+if (playPauseBtn) {
+    playPauseBtn.addEventListener('click', () => {
+        if (!player) return;
+        const state = player.getPlayerState();
+        const playerBox = document.querySelector('.player');
+        if (state === YT.PlayerState.PLAYING) {
+            // UI мгновенно
+            document.getElementById('iconPlay').style.display = 'block';
+            document.getElementById('iconPause').style.display = 'none';
+            playerBox?.classList.remove('playing');
+            playerBox?.classList.add('paused');
+            setGlobalAutoplay(false);
+            player.pauseVideo();
+            try { sessionStorage.setItem('playerUserInitiated', '0'); } catch (e) {}
+        } else {
+            document.getElementById('iconPlay').style.display = 'none';
+            document.getElementById('iconPause').style.display = 'block';
+            playerBox?.classList.add('playing');
+            playerBox?.classList.remove('paused');
+            setGlobalAutoplay(true);
+            player.playVideo();
+            try { sessionStorage.setItem('playerUserInitiated', '1'); } catch (e) {}
+        }
+    });
+}
 
 
